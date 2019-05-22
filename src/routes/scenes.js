@@ -1,4 +1,4 @@
-import { React } from 'react';
+import React from 'react'
 import { Scene, Actions } from 'react-native-router-flux'
 import HomeContainer from './Home/containers/Home.container'
 

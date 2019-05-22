@@ -4,7 +4,7 @@ import makeRootReducer from "./reducers";
 import { createLogger } from "redux-logger";
 
 
-const log = createLogger({ diff: true, collapsed: true });
+const log = createLogger({ diff: true, collapsed: true })
 
 // a function which can create our store and auto-persist the data
 export default (initialState = {}) => {
@@ -31,6 +31,6 @@ export default (initialState = {}) => {
             applyMiddleware(...middleware),
             ...enhancers
         )
-    );
-    return store;
-};
+    )
+    return store
+}
